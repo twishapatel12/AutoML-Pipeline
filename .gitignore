@@ -1,0 +1,13 @@
+automl-env/
+mlruns/ 
+automl/__pycache__/
+api/__pycache__/
+mlartifacts/
+saved_models/
+__pycache__/
+logs/
+ui/app.log
+ui/automl.db
+.env
+api.log
+app.log
