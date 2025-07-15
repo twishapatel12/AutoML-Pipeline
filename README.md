@@ -8,7 +8,6 @@ An end-to-end Automated Machine Learning (AutoML) pipeline designed to streamlin
 * **Model Training & Evaluation**: Leverage automated processes to train and evaluate machine learning models.
 * **RESTful API**: Interact with the pipeline programmatically via well-defined API endpoints.
 * **Modular Architecture**: Clean separation between UI, API, and core AutoML logic for enhanced maintainability.
-* **Containerization**: Docker support for easy deployment across various environments.
 
 ## 🗂️ Project Structure
 
@@ -65,22 +64,6 @@ AutoML-Pipeline/
 
    This will launch the frontend interface, allowing you to upload datasets and initiate model training.
 
-## 📦 Docker Deployment
-
-1. **Build the Docker Image**
-
-   ```bash
-   docker build -t automl-pipeline .
-   ```
-
-2. **Run the Docker Container**
-
-   ```bash
-   docker run -p 5000:5000 automl-pipeline
-   ```
-
-   Access the application via `http://localhost:5000/`.
-
 ## 📄 API Endpoints
 
 * `POST /upload`: Upload a new dataset.
@@ -93,7 +76,6 @@ AutoML-Pipeline/
 * **Frontend**: Streamlit / Flask Templates
 * **Backend**: Flask
 * **Machine Learning**: scikit-learn, pandas, NumPy
-* **Containerization**: Docker
 
 ## 🤝 Contributing
 
@@ -102,3 +84,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Let me know if you want any further edits!
